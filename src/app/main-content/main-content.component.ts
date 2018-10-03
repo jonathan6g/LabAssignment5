@@ -16,7 +16,7 @@ export class MainContentComponent implements OnInit {
 
   students: Array<IStudent> = [];
 
-  constructor() { 
+  constructor() {
     this.students[0] = {
       id: 1,
       firstName: 'Albert',
@@ -42,7 +42,7 @@ export class MainContentComponent implements OnInit {
       course: 'Politics'
     }
   }
-    
+
   ngOnInit() {
   }
 
