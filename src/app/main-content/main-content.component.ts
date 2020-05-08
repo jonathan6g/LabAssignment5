@@ -19,21 +19,21 @@ export class MainContentComponent implements OnInit {
   constructor() {
     this.students[0] = {
       id: 1,
-      firstName: 'Albert',
-      lastName: 'Avery',
+      firstName: 'Jonathan',
+      lastName: 'Gonzalez',
       course: 'Programming'
     }
     this.students[1] = {
       id: 1,
-      firstName: 'Michael',
-      lastName: 'Phelps',
-      course: 'Swimming'
+      firstName: 'Tom',
+      lastName: 'Brady',
+      course: 'Football'
     }
     this.students[2] = {
       id: 1,
-      firstName: 'Elon',
-      lastName: 'Musk',
-      course: 'Electric Cars'
+      firstName: 'Joe',
+      lastName: 'Biden',
+      course: 'Politics'
     }
     this.students[3] = {
       id: 1,
@@ -44,6 +44,16 @@ export class MainContentComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  addStudent() {
+    const student: IStudent = {
+      id: 1,
+      firstName: 'Mike',
+      lastName: 'Tyson',
+      course: 'Boxing'
+    };
+    this.students.push(student);
   }
 
 }

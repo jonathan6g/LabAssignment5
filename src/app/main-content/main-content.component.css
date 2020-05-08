@@ -1,6 +1,6 @@
 .main-container-grid {
   display: grid;
-  grid-template-columns: 3fr 6fr 3fr;
+  grid-template-columns: 1fr 6fr 2fr;
   height: 100%;
 }
 
@@ -13,4 +13,8 @@
   border: 1px solid #CCC;
   min-height: 50px;
   padding: .5em;
+}
+
+.add-button {
+  font-size: bold;
 }

@@ -10,8 +10,8 @@ export class MainHeaderComponent implements OnInit {
   private firstName: string;
   private lastName: string;
   constructor() {
-    this.firstName = 'Albert';
-    this.lastName = 'Avery';
+    this.firstName = 'Jonathan';
+    this.lastName = 'Gonzalez';
   }
   showGreeting() {
     const banner = document.getElementById('banner');
