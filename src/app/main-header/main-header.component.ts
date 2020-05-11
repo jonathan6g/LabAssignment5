@@ -14,24 +14,24 @@ export class MainHeaderComponent implements OnInit {
 
   constructor(
     private router: Router
-  ) {
-    this.firstName = 'Jonathan';
-    this.lastName = 'Gonzalez';
+  ) { 
+    this.firstName = 'Krishan';
+    this.lastName = 'Verma';
   }
 
   showGreeting() {
     const banner = document.getElementById('banner');
     banner.innerHTML = 'Hello' + this.firstName + ' ' + this.lastName + '.';
   }
-  resetGreeting () {
+  resetGreeting (){
     const banner = document.getElementById('banner');
     banner.innerHTML = 'r1c2';
   }
 
-  navigateTo(path: string) {
+  navigateTo(path: string){
     this.router.navigate([path]);
   }
-
+  
   ngOnInit(): void {
   }
 

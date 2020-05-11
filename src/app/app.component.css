@@ -10,9 +10,11 @@
             display: grid;
             grid-template-columns: 1fr 5fr 2fr;
         }
+
         .row-two {
             background-color: #f1f1f1;
         }
+
         .row-two {
             background-color: #f1f1f1;
         }
@@ -30,5 +32,5 @@
         } */
 
         .main-outlet {
-          display: none;
-        }
+            display: none;
+          }

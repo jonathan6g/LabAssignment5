@@ -1,3 +1,4 @@
+'@NgModule.schemas'
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MainFooterComponent } from './main-footer.component';

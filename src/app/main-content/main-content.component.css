@@ -1,9 +1,9 @@
 .main-container-grid {
-  display: grid;
-  height: 100%;
-  grid-template-columns: 2fr 6fr 2fr;
-  width: 100%;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 2fr 6fr 2fr;
+    width: 100%;
 }
 .main-outlet {
-  display:none;
+    display:none;
 }
